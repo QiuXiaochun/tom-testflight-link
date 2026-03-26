@@ -82,12 +82,12 @@
     },
     "2ECNyYgf": {
       "app_name": "云屋通",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-03-26"
     },
     "yPQ18Hrx": {
       "app_name": "MeetingDemo",
