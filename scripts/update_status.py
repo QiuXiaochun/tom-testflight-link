@@ -40,8 +40,8 @@ def send_notification(app_name, link_key, old_status, new_status):
         return
     
     # 只通知失效的情况 (Y -> N, Y -> F, Y -> D)
-    if old_status != 'Y':
-        return
+    # if old_status != 'Y':
+    #     return
     if new_status not in ['N', 'F', 'D']:
         return
     
