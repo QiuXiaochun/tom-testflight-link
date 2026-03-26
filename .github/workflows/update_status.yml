@@ -8,7 +8,7 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
-    if: github.repository == 'QiuXiaochun/tom-testflight-link'
+    #if: github.repository == 'QiuXiaochun/tom-testflight-link'
     steps:
       - uses: actions/checkout@v4
       - name: Setup uv
@@ -16,7 +16,7 @@ jobs:
         with:
           enable-cache: true
       - name: Set up Python with uv
-        run: uv venv && uv sync --locked
+        run: uv venv && uv sync
       - name: Update TestFlight Link Status
         run: uv run python scripts/update_status.py
 
