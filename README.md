@@ -1,23 +1,8 @@
-# Awesome Testflight App List
-Collect Public Testflight app URL's (iOS/iPad OS/macOS), feel free to create a issue.
-
-## 🚀 Quick Navigation
-- [iOS Apps](#ios-app-list)
-- [iPadOS Apps](#ipados-app-list)
-- [macOS Apps](#macos-app-list)
-- [tvOS Apps](#tvos-app-list)
-- [Signup Required Apps](#signup-required-apps)
-
 ## 📊 Available Status
 * **Y: Yes** - Apps currently accepting new testers
 * **F: Full** - Apps that have reached their tester limit  
 * **N: No** - Apps not currently accepting testers
 * **D: Deleted** - Apps that have been removed from TestFlight
-
-## 🔍 How to Use This List
-1. **Browse by Platform**: Use the navigation links above to jump to your desired platform
-2. **Find What You Need**: Look for apps with "Available" status for immediate access
-3. **Stay Updated**: Check back regularly as statuses change frequently
 
 ---
 
@@ -53,28 +38,6 @@ _✅ These 10 apps are currently accepting new testers! Click the links to join.
 </details>
 
 
-
-
-
-
-
-
-
-# Signup App List
-| Name | Url | Available |
-| --- | --- | --- |
-| AVM FRITZ!Apps | [https://avm.de/fritz-labor/fritzapp-labor-fuer-ios/](https://avm.de/fritz-labor/fritzapp-labor-fuer-ios/) | |
-| BlackBerry Messenger (BBM) | [https://docs.google.com/forms/d/e/1FAIpQLSfMwOqEZn6mFtuz9FhzreOdysmTbSaRnOO3LCIHY1Uwt2f31A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSfMwOqEZn6mFtuz9FhzreOdysmTbSaRnOO3LCIHY1Uwt2f31A/viewform) | |
-| Notability | [https://support.gingerlabs.com/hc/en-us/articles/216037238-Apply-to-Beta-Test-Notability-](https://support.gingerlabs.com/hc/en-us/articles/216037238-Apply-to-Beta-Test-Notability-) | |
-
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=pluwen/awesome-testflight-link&type=Date)](https://star-history.com/#pluwen/awesome-testflight-link&Date)
-
-## Author
-
-* [Pluwen](https://twitter.com/pluwen)
 
 Special thanks to [@tom-snow](https://github.com/tom-snow) for adding the [Github Action workflow](./docs/GITHUB_ACTION.md) to this repository.
 
