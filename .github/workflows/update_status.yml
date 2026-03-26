@@ -8,7 +8,7 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
-    if: github.repository == 'pluwen/awesome-testflight-link'
+    if: github.repository == 'QiuXiaochun/tom-testflight-link'
     steps:
       - uses: actions/checkout@v4
       - name: Setup uv
