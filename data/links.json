@@ -6,85 +6,76 @@
       "tables": [
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     },
     "4SgxBpAq": {
       "app_name": "CRMeetingSDKDemo-Navtive",
       "status": "Y",
       "tables": [
-        "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     },
     "dHUzkHun": {
       "app_name": "APIDemo-Flutter",
       "status": "Y",
       "tables": [
-        "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     },
     "8HpKgasF": {
       "app_name": "CRMeetingDemo-Flutter",
       "status": "Y",
       "tables": [
-        "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     },
     "pJoF5zsU": {
       "app_name": "uni-app-云屋IM",
       "status": "Y",
       "tables": [
-        "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     },
     "kFq9OQTP": {
       "app_name": "uni-app-APIDemo",
       "status": "Y",
       "tables": [
-        "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     },
     "otcFpYFW": {
       "app_name": "APIDemo",
       "status": "Y",
       "tables": [
-        "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     },
     "5ZQh4aRA": {
       "app_name": "互动白板",
       "status": "Y",
       "tables": [
-        "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     },
     "MGwX87rb": {
       "app_name": "VideoCallDemo",
       "status": "Y",
       "tables": [
-        "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     },
     "2ECNyYgf": {
       "app_name": "云屋通",
       "status": "N",
       "tables": [
-        "macos",
         "ios"
       ],
       "last_modify": "2026-03-26"
@@ -93,10 +84,9 @@
       "app_name": "MeetingDemo",
       "status": "Y",
       "tables": [
-        "macos",
         "ios"
       ],
-      "last_modify": "2025-12-22"
+      "last_modify": "2026-01-06"
     }
   }
 }
