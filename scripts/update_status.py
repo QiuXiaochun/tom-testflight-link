@@ -124,7 +124,14 @@ async def update_all_links(links_data):
         link_info = all_links[link]
         old_status = link_info.get('status')
 
-        if old_status != status:
+        # 只要是不可用状态（N/F/D）就发送通知
+        if status in ['N', 'F', 'D']:
+           send_notification(link_info.get('app_name'), link, old_status, status)
+           # 继续更新状态
+           link_info['status'] = status
+           link_info['last_modify'] = TODAY
+           updated_count += 1
+        elif old_status != status:
             # 状态变化时发送通知
             send_notification(link_info.get('app_name'), link, old_status, status)
             link_info['status'] = status
