@@ -17,6 +17,11 @@ jobs:
           enable-cache: true
       - name: Set up Python with uv
         run: uv venv && uv sync
+      - name: Create .env file
+        run: |
+          echo "NOTIFICATION_WEBHOOK=${{ secrets.NOTIFICATION_WEBHOOK }}" > .env
+          echo "NOTIFICATION_TYPE=feishu" >> .env
+          cat .env
       - name: Update TestFlight Link Status
         run: uv run python scripts/update_status.py
 
