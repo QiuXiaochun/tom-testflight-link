@@ -7,6 +7,26 @@ import os
 import requests
 from utils import TODAY, renew_readme, load_links, save_links
 
+def load_env_from_file():
+    """从 .env 文件加载环境变量"""
+    env_file = os.path.join(os.path.dirname(__file__), '..', '.env')
+    if os.path.exists(env_file):
+        print(f"[info] 找到 .env 文件: {env_file}")
+        with open(env_file, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    if '=' in line:
+                        key, value = line.split('=', 1)
+                        os.environ[key] = value
+                        print(f"[info] 加载环境变量: {key}={value[:20] if value else 'None'}...")
+        print("[info] .env 文件加载完成")
+    else:
+        print(f"[warn] 未找到 .env 文件: {env_file}")
+
+# 加载 .env 文件
+load_env_from_file()
+
 BASE_URL = "https://testflight.apple.com/"
 FULL_PATTERN = re.compile(r"版本的测试员已满|This beta is full")
 NO_PATTERN = re.compile(r"版本目前不接受任何新测试员|This beta isn't accepting any new testers right now")
