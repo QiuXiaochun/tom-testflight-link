@@ -14,6 +14,7 @@ NO_PATTERN = re.compile(r"版本目前不接受任何新测试员|This beta isn'
 def send_notification(app_name, link_key, old_status, new_status):
     """发送通知到飞书"""
     webhook = os.environ.get('NOTIFICATION_WEBHOOK')
+    print(f"[debug] webhook = {webhook[:50] if webhook else 'None'}")  # 调试用，只打印前50字符
     if not webhook:
         print("[warn] NOTIFICATION_WEBHOOK not set, skipping notification")
         return
