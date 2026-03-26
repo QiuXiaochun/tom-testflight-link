@@ -3,11 +3,49 @@ import asyncio
 import aiohttp
 import re
 import random
+import os
+import requests
 from utils import TODAY, renew_readme, load_links, save_links
 
 BASE_URL = "https://testflight.apple.com/"
 FULL_PATTERN = re.compile(r"版本的测试员已满|This beta is full")
 NO_PATTERN = re.compile(r"版本目前不接受任何新测试员|This beta isn't accepting any new testers right now")
+
+def send_notification(app_name, link_key, old_status, new_status):
+    """发送通知到飞书"""
+    webhook = os.environ.get('NOTIFICATION_WEBHOOK')
+    if not webhook:
+        print("[warn] NOTIFICATION_WEBHOOK not set, skipping notification")
+        return
+    
+    # 只通知失效的情况 (Y -> N, Y -> F, Y -> D)
+    if old_status != 'Y':
+        return
+    if new_status not in ['N', 'F', 'D']:
+        return
+    
+    # 状态映射
+    status_names = {'N': '不接受新测试员', 'F': '测试员已满', 'D': '链接已删除'}
+    status_name = status_names.get(new_status, new_status)
+    
+    link = f"https://testflight.apple.com/join/{link_key}"
+    
+    # 飞书消息格式
+    message = {
+        "msg_type": "text",
+        "content": {
+            "text": f"⚠️ TestFlight 监控提醒\n\n应用：{app_name}\n状态：{old_status} → {status_name}\n链接：{link}"
+        }
+    }
+    
+    try:
+        response = requests.post(webhook, json=message, timeout=10)
+        if response.status_code == 200:
+            print(f"[info] 通知已发送: {app_name} {old_status}→{new_status}")
+        else:
+            print(f"[warn] 通知发送失败: {response.status_code}")
+    except Exception as e:
+        print(f"[warn] 通知发送异常: {e}")
 
 async def check_status(session, key, current_status, app_name=None, retry=5):
     """获取应用状态"""
@@ -22,7 +60,6 @@ async def check_status(session, key, current_status, app_name=None, retry=5):
                 resp.raise_for_status()
                 resp_html = await resp.text()
 
-                # 检测状态
                 if NO_PATTERN.search(resp_html):
                     return (key, 'N')
                 elif FULL_PATTERN.search(resp_html):
@@ -64,8 +101,11 @@ async def update_all_links(links_data):
             continue
 
         link_info = all_links[link]
+        old_status = link_info.get('status')
 
-        if link_info.get('status') != status:
+        if old_status != status:
+            # 状态变化时发送通知
+            send_notification(link_info.get('app_name'), link, old_status, status)
             link_info['status'] = status
             link_info['last_modify'] = TODAY
             updated_count += 1
@@ -75,10 +115,7 @@ async def update_all_links(links_data):
 async def main():
     links_data = load_links()
     await update_all_links(links_data)
-
     save_links(links_data)
-
-    # 直接生成 README
     renew_readme()
 
 if __name__ == "__main__":
