@@ -24,7 +24,9 @@ jobs:
           cat .env
       - name: Update TestFlight Link Status
         run: uv run python scripts/update_status.py
-
+      - name: Remove .env file
+        run: rm -f .env 
+        
       - name: Commit and push changes
         run: |
           if [ -n "$(git status --porcelain)" ]; then
