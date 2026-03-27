@@ -38,7 +38,7 @@ _✅ These 10 apps are currently accepting new testers! Click the links to join.
 | uni-app-APIDemo | [https://testflight.apple.com/join/kFq9OQTP](https://testflight.apple.com/join/kFq9OQTP) | Y | 2026-01-06 |
 | uni-app-云屋IM | [https://testflight.apple.com/join/pJoF5zsU](https://testflight.apple.com/join/pJoF5zsU) | Y | 2026-01-06 |
 | VideoCallDemo | [https://testflight.apple.com/join/MGwX87rb](https://testflight.apple.com/join/MGwX87rb) | Y | 2026-01-06 |
-| 云屋IM | [https://testflight.apple.com/join/TeO9zlHV](https://testflight.apple.com/join/TeO9zlHV) | Y | 2026-01-06 |
+| 云屋IM | [https://testflight.apple.com/join/TeO9zlHV](https://testflight.apple.com/join/TeO9zlHV) | Y | 2026-03-04 |
 | 互动白板 | [https://testflight.apple.com/join/5ZQh4aRA](https://testflight.apple.com/join/5ZQh4aRA) | Y | 2026-01-06 |
 
 </details>
@@ -48,7 +48,7 @@ _✅ These 10 apps are currently accepting new testers! Click the links to join.
 
 | Name | TestFlight Link | Status | Last Updated |
 | --- | --- | --- | --- |
-| 云屋通 | [https://testflight.apple.com/join/2ECNyYgf](https://testflight.apple.com/join/2ECNyYgf) | N | 2026-03-26 |
+| 云屋通 | [https://testflight.apple.com/join/2ECNyYgf](https://testflight.apple.com/join/2ECNyYgf) | N | 2026-03-27 |
 
 </details>
 
