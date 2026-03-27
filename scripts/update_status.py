@@ -89,8 +89,20 @@ async def update_all_links(links_data):
         info = all_links[link]
         old = info.get('status')
         
-        # 天数递减（仅当状态为 Y 且今天未减过）
-        if status == 'Y':
+        # ========== 1. 处理不可用状态的通知 ==========
+        if status in ['N', 'F', 'D']:
+            # 发送通知（每次都发，不管之前是什么状态）
+            send_notification(info['app_name'], link, "status_change")
+            
+            # 状态变化时才更新文件
+            if old != status:
+                info['status'] = status
+                info['last_modify'] = today
+                updated += 1
+        
+        # ========== 2. 处理可用状态的预警 ==========
+        elif status == 'Y':
+            # 天数递减（仅当今天未减过）
             last = info.get('last_check', '')
             days = info.get('expiry_days', 90)
             
@@ -103,21 +115,24 @@ async def update_all_links(links_data):
                 # 提前 10 天预警
                 if days <= 10:
                     send_notification(info['app_name'], link, "expiry", days)
+            
+            # 状态变化时更新
+            if old != status:
+                info['status'] = status
+                info['last_modify'] = today
+                updated += 1
+                
+                # 从不可用恢复时重置天数
+                if old in ['N', 'F', 'D']:
+                    info['expiry_days'] = 90
+                    info['last_check'] = today
+                    print(f"[info] {info['app_name']} 恢复，重置为 90 天")
         
-        # 状态变化处理
-        if old != status:
+        # ========== 3. 状态变化但不需要通知的情况 ==========
+        elif old != status:
             info['status'] = status
             info['last_modify'] = today
             updated += 1
-            
-            # 失效时通知
-            if status in ['N', 'F', 'D']:
-                send_notification(info['app_name'], link, "status_change")
-            # 恢复时重置天数
-            elif status == 'Y':
-                info['expiry_days'] = 90
-                info['last_check'] = today
-                print(f"[info] {info['app_name']} 恢复，重置为 90 天")
 
     print(f"[info] 状态更新: {updated}")
 
