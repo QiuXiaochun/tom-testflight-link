@@ -27,7 +27,7 @@ def load_env_from_file():
 load_env_from_file()
 
 # ========== 通知功能 ==========
-def send_notification(app_name, link_key, message_type, days_left=None):
+def send_notification(app_name, link_key, message_type, days_left=None, old_status=None, new_status=None):
     """发送通知到飞书"""
     webhook = os.environ.get('NOTIFICATION_WEBHOOK')
     if not webhook:
@@ -35,10 +35,26 @@ def send_notification(app_name, link_key, message_type, days_left=None):
     
     link = f"https://testflight.apple.com/join/{link_key}"
     
+    # 状态映射
+    status_names = {
+        'Y': '✅ 可用',
+        'N': '❌ 不接受新测试员',
+        'F': '⚠️ 测试员已满',
+        'D': '🗑️ 链接已删除'
+    }
+    
     if message_type == "expiry":
         text = f"⏰ TestFlight 即将过期\n\n应用：{app_name}\n剩余：{days_left} 天\n链接：{link}"
+    
     elif message_type == "status_change":
-        text = f"⚠️ TestFlight 状态变更\n\n应用：{app_name}\n链接：{link}"
+        old_name = status_names.get(old_status, old_status)
+        new_name = status_names.get(new_status, new_status)
+        text = f"⚠️ TestFlight 状态变更\n\n应用：{app_name}\n状态：{old_name} → {new_name}\n链接：{link}"
+    
+    elif message_type == "status_alert":
+        status_name = status_names.get(new_status, new_status)
+        text = f"⚠️ TestFlight 当前不可用\n\n应用：{app_name}\n状态：{status_name}\n链接：{link}"
+    
     else:
         return
     
@@ -91,14 +107,17 @@ async def update_all_links(links_data):
         
         # ========== 1. 处理不可用状态的通知 ==========
         if status in ['N', 'F', 'D']:
-            # 发送通知（每次都发，不管之前是什么状态）
-            send_notification(info['app_name'], link, "status_change")
-            
-            # 状态变化时才更新文件
+            # 状态变化时发变更通知
             if old != status:
+                send_notification(info['app_name'], link, "status_change", 
+                                  old_status=old, new_status=status)
                 info['status'] = status
                 info['last_modify'] = today
                 updated += 1
+            else:
+                # 状态没变但持续不可用，发持续提醒
+                send_notification(info['app_name'], link, "status_alert", 
+                                  new_status=status)
         
         # ========== 2. 处理可用状态的预警 ==========
         elif status == 'Y':
@@ -114,7 +133,7 @@ async def update_all_links(links_data):
                 
                 # 提前 10 天预警
                 if days <= 10:
-                    send_notification(info['app_name'], link, "expiry", days)
+                    send_notification(info['app_name'], link, "expiry", days_left=days)
             
             # 状态变化时更新
             if old != status:
@@ -128,7 +147,7 @@ async def update_all_links(links_data):
                     info['last_check'] = today
                     print(f"[info] {info['app_name']} 恢复，重置为 90 天")
         
-        # ========== 3. 状态变化但不需要通知的情况 ==========
+        # ========== 3. 其他状态变化 ==========
         elif old != status:
             info['status'] = status
             info['last_modify'] = today
