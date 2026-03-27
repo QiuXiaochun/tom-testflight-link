@@ -50,7 +50,8 @@ def generate_platform_section(table_name, links_data):
                     'app_name': info['app_name'],
                     'testflight_link': link_id,
                     'status': info['status'],
-                    'last_modify': info['last_modify']
+                    'last_modify': info['last_modify'],
+                    'expiry_days': info.get('expiry_days', '')  # ← 新增：获取剩余天数
                 }
                 for link_id, info in table_links.items()
                 if info['status'] == status_code
@@ -73,12 +74,15 @@ def generate_platform_section(table_name, links_data):
         elif status_code == 'F':
             markdown.append(f"_⚠️ These {app_count} apps have reached their tester limit. Try checking back later._\n\n")
         
-        markdown.append("| Name | TestFlight Link | Status | Last Updated |\n")
-        markdown.append("| --- | --- | --- | --- |\n")
+        # 修改表头，增加"剩余天数"列
+        markdown.append("| Name | TestFlight Link | Status | 剩余天数 | Last Updated |\n")
+        markdown.append("| --- | --- | --- | --- | --- |\n")
         
         for app in apps:
             full_link = f"https://testflight.apple.com/join/{app['testflight_link']}"
-            markdown.append(f"| {app['app_name']} | [{full_link}]({full_link}) | {app['status']} | {app['last_modify']} |\n")
+            # 处理剩余天数显示
+            days_display = app['expiry_days'] if app['expiry_days'] else '-'
+            markdown.append(f"| {app['app_name']} | [{full_link}]({full_link}) | {app['status']} | {days_display} | {app['last_modify']} |\n")
         
         markdown.append("\n</details>\n\n")
 
