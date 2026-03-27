@@ -1,8 +1,11 @@
 name: Update TestFlight Link Status
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: '15 2 * * *'
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
@@ -41,7 +44,7 @@ jobs:
 
   forked-repo:
     runs-on: ubuntu-latest
-    if: github.repository != 'pluwen/awesome-testflight-link'
+    if: false
     steps:
       - uses: actions/checkout@v4
         with:
