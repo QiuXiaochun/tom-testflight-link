@@ -42,7 +42,7 @@
     },
     "pJoF5zsU": {
       "app_name": "uni-app-云屋IM",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
@@ -52,7 +52,7 @@
     },
     "kFq9OQTP": {
       "app_name": "uni-app-APIDemo",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
