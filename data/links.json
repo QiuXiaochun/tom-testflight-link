@@ -32,12 +32,12 @@
     },
     "8HpKgasF": {
       "app_name": "CRMeetingDemo-Flutter",
-      "status": "N",
+      "status": "Y",
       "tables": [
         "ios"
       ],
-      "last_modify": "2026-01-06",
-      "expiry_days": 4,
+      "last_modify": "2026-04-02",
+      "expiry_days": 90,
       "last_check": "2026-04-02"
     },
     "pJoF5zsU": {
