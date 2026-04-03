@@ -22,7 +22,7 @@
     },
     "dHUzkHun": {
       "app_name": "APIDemo-Flutter",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
@@ -32,7 +32,7 @@
     },
     "8HpKgasF": {
       "app_name": "CRMeetingDemo-Flutter",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
@@ -42,7 +42,7 @@
     },
     "pJoF5zsU": {
       "app_name": "uni-app-云屋IM",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
@@ -52,7 +52,7 @@
     },
     "kFq9OQTP": {
       "app_name": "uni-app-APIDemo",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
@@ -62,7 +62,7 @@
     },
     "otcFpYFW": {
       "app_name": "APIDemo",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
@@ -72,7 +72,7 @@
     },
     "5ZQh4aRA": {
       "app_name": "互动白板",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
@@ -82,7 +82,7 @@
     },
     "MGwX87rb": {
       "app_name": "VideoCallDemo",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
@@ -102,7 +102,7 @@
     },
     "yPQ18Hrx": {
       "app_name": "MeetingDemo",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
