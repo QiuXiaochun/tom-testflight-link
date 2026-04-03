@@ -12,12 +12,12 @@
     },
     "4SgxBpAq": {
       "app_name": "CRMeetingSDKDemo-Navtive",
-      "status": "N",
+      "status": "Y",
       "tables": [
         "ios"
       ],
-      "last_modify": "2026-01-06",
-      "expiry_days": 3,
+      "last_modify": "2026-04-03",
+      "expiry_days": 90,
       "last_check": "2026-04-03"
     },
     "dHUzkHun": {
