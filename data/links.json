@@ -7,8 +7,8 @@
         "ios"
       ],
       "last_modify": "2026-03-04",
-      "expiry_days": 37,
-      "last_check": "2026-04-15"
+      "expiry_days": 36,
+      "last_check": "2026-04-16"
     },
     "4SgxBpAq": {
       "app_name": "CRMeetingSDKDemo-Navtive",
@@ -17,8 +17,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 78,
-      "last_check": "2026-04-15"
+      "expiry_days": 77,
+      "last_check": "2026-04-16"
     },
     "dHUzkHun": {
       "app_name": "APIDemo-Flutter",
@@ -27,8 +27,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 78,
-      "last_check": "2026-04-15"
+      "expiry_days": 77,
+      "last_check": "2026-04-16"
     },
     "8HpKgasF": {
       "app_name": "CRMeetingDemo-Flutter",
@@ -37,8 +37,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 78,
-      "last_check": "2026-04-15"
+      "expiry_days": 77,
+      "last_check": "2026-04-16"
     },
     "pJoF5zsU": {
       "app_name": "uni-app-云屋IM",
@@ -47,8 +47,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 78,
-      "last_check": "2026-04-15"
+      "expiry_days": 77,
+      "last_check": "2026-04-16"
     },
     "kFq9OQTP": {
       "app_name": "uni-app-APIDemo",
@@ -57,8 +57,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 78,
-      "last_check": "2026-04-15"
+      "expiry_days": 77,
+      "last_check": "2026-04-16"
     },
     "otcFpYFW": {
       "app_name": "APIDemo",
@@ -67,8 +67,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 78,
-      "last_check": "2026-04-15"
+      "expiry_days": 77,
+      "last_check": "2026-04-16"
     },
     "5ZQh4aRA": {
       "app_name": "互动白板",
@@ -77,8 +77,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 78,
-      "last_check": "2026-04-15"
+      "expiry_days": 77,
+      "last_check": "2026-04-16"
     },
     "MGwX87rb": {
       "app_name": "VideoCallDemo",
@@ -87,8 +87,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 78,
-      "last_check": "2026-04-15"
+      "expiry_days": 77,
+      "last_check": "2026-04-16"
     },
     "2ECNyYgf": {
       "app_name": "云屋通",
@@ -107,8 +107,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 78,
-      "last_check": "2026-04-15"
+      "expiry_days": 77,
+      "last_check": "2026-04-16"
     }
   }
 }
