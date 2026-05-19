@@ -24,31 +24,31 @@ Collect Public Testflight app URL's (iOS/iPad OS/macOS), feel free to create a i
 ## iOS App List
 
 <details open>
-<summary><strong>Available (9 apps)</strong> - Apps currently accepting new testers</summary>
+<summary><strong>Available (10 apps)</strong> - Apps currently accepting new testers</summary>
 
-_✅ These 9 apps are currently accepting new testers! Click the links to join._
+_✅ These 10 apps are currently accepting new testers! Click the links to join._
 
 | Name | TestFlight Link | Status | Last Updated |
 | --- | --- | --- | --- |
 | APIDemo | [https://testflight.apple.com/join/otcFpYFW](https://testflight.apple.com/join/otcFpYFW) | Y | 2026-04-03 |
 | APIDemo-Flutter | [https://testflight.apple.com/join/dHUzkHun](https://testflight.apple.com/join/dHUzkHun) | Y | 2026-04-03 |
+| CRIM Demo | [https://testflight.apple.com/join/TeO9zlHV](https://testflight.apple.com/join/TeO9zlHV) | Y | 2026-03-04 |
+| CRIM Demo uni-app | [https://testflight.apple.com/join/pJoF5zsU](https://testflight.apple.com/join/pJoF5zsU) | Y | 2026-05-19 |
 | CRMeetingDemo-Flutter | [https://testflight.apple.com/join/8HpKgasF](https://testflight.apple.com/join/8HpKgasF) | Y | 2026-04-03 |
 | CRMeetingSDKDemo-Navtive | [https://testflight.apple.com/join/4SgxBpAq](https://testflight.apple.com/join/4SgxBpAq) | Y | 2026-04-03 |
 | MeetingDemo | [https://testflight.apple.com/join/yPQ18Hrx](https://testflight.apple.com/join/yPQ18Hrx) | Y | 2026-04-03 |
 | uni-app-APIDemo | [https://testflight.apple.com/join/kFq9OQTP](https://testflight.apple.com/join/kFq9OQTP) | Y | 2026-04-03 |
 | VideoCallDemo | [https://testflight.apple.com/join/MGwX87rb](https://testflight.apple.com/join/MGwX87rb) | Y | 2026-04-03 |
-| 云屋IM | [https://testflight.apple.com/join/TeO9zlHV](https://testflight.apple.com/join/TeO9zlHV) | Y | 2026-03-04 |
 | 互动白板 | [https://testflight.apple.com/join/5ZQh4aRA](https://testflight.apple.com/join/5ZQh4aRA) | Y | 2026-04-03 |
 
 </details>
 
 <details >
-<summary><strong>No (3 apps)</strong> - Apps not currently accepting testers</summary>
+<summary><strong>No (2 apps)</strong> - Apps not currently accepting testers</summary>
 
 | Name | TestFlight Link | Status | Last Updated |
 | --- | --- | --- | --- |
-| uni-app-云屋IM | [https://testflight.apple.com/join/pJoF5zsU](https://testflight.apple.com/join/pJoF5zsU) | N | 2026-04-03 |
-| 云屋IM-Flutter | [https://testflight.apple.com/join/B4CR47hX](https://testflight.apple.com/join/B4CR47hX) | N | 2026-04-03 |
+| CRIM Demo-Flutter | [https://testflight.apple.com/join/B4CR47hX](https://testflight.apple.com/join/B4CR47hX) | N | 2026-04-03 |
 | 云屋通 | [https://testflight.apple.com/join/2ECNyYgf](https://testflight.apple.com/join/2ECNyYgf) | N | 2026-03-27 |
 
 </details>
