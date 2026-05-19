@@ -1,13 +1,13 @@
 {
   "_links": {
     "TeO9zlHV": {
-      "app_name": "云屋IM",
+      "app_name": "CRIM Demo",
       "status": "Y",
       "tables": [
         "ios"
       ],
       "last_modify": "2026-03-04",
-      "expiry_days": 3,
+      "expiry_days": 15,
       "last_check": "2026-05-19"
     },
     "4SgxBpAq": {
@@ -41,7 +41,7 @@
       "last_check": "2026-05-19"
     },
     "pJoF5zsU": {
-      "app_name": "uni-app-云屋IM",
+      "app_name": "CRIM Demo uni-app",
       "status": "Y",
       "tables": [
         "ios"
@@ -111,7 +111,7 @@
       "last_check": "2026-05-19"
     },
     "B4CR47hX": {
-      "app_name": "云屋IM-Flutter",
+      "app_name": "CRIM Demo-Flutter",
       "status": "N",
       "tables": [
         "ios"
