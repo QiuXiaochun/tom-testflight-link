@@ -42,7 +42,7 @@
     },
     "pJoF5zsU": {
       "app_name": "uni-app-云屋IM",
-      "status": "Y",
+      "status": "N",
       "tables": [
         "ios"
       ],
@@ -108,6 +108,16 @@
       ],
       "last_modify": "2026-04-03",
       "expiry_days": 45,
+      "last_check": "2026-05-18"
+    },
+      "B4CR47hX": {
+      "app_name": "云屋IM-Flutter",
+      "status": "N",
+      "tables": [
+        "ios"
+      ],
+      "last_modify": "2026-04-03",
+      "expiry_days": 0,
       "last_check": "2026-05-18"
     }
   }
