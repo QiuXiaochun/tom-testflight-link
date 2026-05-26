@@ -9,9 +9,9 @@
 ## iOS App List
 
 <details open>
-<summary><strong>Available (10 apps)</strong> - Apps currently accepting new testers</summary>
+<summary><strong>Available (11 apps)</strong> - Apps currently accepting new testers</summary>
 
-_✅ These 10 apps are currently accepting new testers! Click the links to join._
+_✅ These 11 apps are currently accepting new testers! Click the links to join._
 
 | Name | TestFlight Link | Status | 剩余天数 | Last Updated |
 | --- | --- | --- | --- | --- |
@@ -19,6 +19,7 @@ _✅ These 10 apps are currently accepting new testers! Click the links to join.
 | APIDemo-Flutter | [https://testflight.apple.com/join/dHUzkHun](https://testflight.apple.com/join/dHUzkHun) | Y | 37 | 2026-04-03 |
 | CRIM Demo | [https://testflight.apple.com/join/TeO9zlHV](https://testflight.apple.com/join/TeO9zlHV) | Y | 8 | 2026-03-04 |
 | CRIM Demo uni-app | [https://testflight.apple.com/join/pJoF5zsU](https://testflight.apple.com/join/pJoF5zsU) | Y | 83 | 2026-05-19 |
+| CRIM Demo-Flutter | [https://testflight.apple.com/join/B4CR47hX](https://testflight.apple.com/join/B4CR47hX) | Y | 90 | 2026-05-26 |
 | CRMeetingDemo-Flutter | [https://testflight.apple.com/join/8HpKgasF](https://testflight.apple.com/join/8HpKgasF) | Y | 37 | 2026-04-03 |
 | CRMeetingSDKDemo-Navtive | [https://testflight.apple.com/join/4SgxBpAq](https://testflight.apple.com/join/4SgxBpAq) | Y | 37 | 2026-04-03 |
 | MeetingDemo | [https://testflight.apple.com/join/yPQ18Hrx](https://testflight.apple.com/join/yPQ18Hrx) | Y | 37 | 2026-04-03 |
@@ -29,11 +30,10 @@ _✅ These 10 apps are currently accepting new testers! Click the links to join.
 </details>
 
 <details >
-<summary><strong>No (2 apps)</strong> - Apps not currently accepting testers</summary>
+<summary><strong>No (1 app)</strong> - Apps not currently accepting testers</summary>
 
 | Name | TestFlight Link | Status | 剩余天数 | Last Updated |
 | --- | --- | --- | --- | --- |
-| CRIM Demo-Flutter | [https://testflight.apple.com/join/B4CR47hX](https://testflight.apple.com/join/B4CR47hX) | N | - | 2026-04-03 |
 | 云屋通 | [https://testflight.apple.com/join/2ECNyYgf](https://testflight.apple.com/join/2ECNyYgf) | N | - | 2026-03-27 |
 
 </details>

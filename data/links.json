@@ -112,13 +112,13 @@
     },
     "B4CR47hX": {
       "app_name": "CRIM Demo-Flutter",
-      "status": "N",
+      "status": "Y",
       "tables": [
         "ios"
       ],
-      "last_modify": "2026-04-03",
-      "expiry_days": 0,
-      "last_check": "2026-05-18"
+      "last_modify": "2026-05-26",
+      "expiry_days": 90,
+      "last_check": "2026-05-26"
     }
   }
 }
