@@ -7,8 +7,8 @@
         "ios"
       ],
       "last_modify": "2026-06-03",
-      "expiry_days": 90,
-      "last_check": "2026-06-03"
+      "expiry_days": 89,
+      "last_check": "2026-06-04"
     },
     "4SgxBpAq": {
       "app_name": "CRMeetingSDKDemo-Navtive",
@@ -17,8 +17,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 29,
-      "last_check": "2026-06-03"
+      "expiry_days": 28,
+      "last_check": "2026-06-04"
     },
     "dHUzkHun": {
       "app_name": "APIDemo-Flutter",
@@ -27,8 +27,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 29,
-      "last_check": "2026-06-03"
+      "expiry_days": 28,
+      "last_check": "2026-06-04"
     },
     "8HpKgasF": {
       "app_name": "CRMeetingDemo-Flutter",
@@ -37,8 +37,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 29,
-      "last_check": "2026-06-03"
+      "expiry_days": 28,
+      "last_check": "2026-06-04"
     },
     "pJoF5zsU": {
       "app_name": "CRIM Demo uni-app",
@@ -47,8 +47,8 @@
         "ios"
       ],
       "last_modify": "2026-05-19",
-      "expiry_days": 75,
-      "last_check": "2026-06-03"
+      "expiry_days": 74,
+      "last_check": "2026-06-04"
     },
     "kFq9OQTP": {
       "app_name": "uni-app-APIDemo",
@@ -57,8 +57,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 29,
-      "last_check": "2026-06-03"
+      "expiry_days": 28,
+      "last_check": "2026-06-04"
     },
     "otcFpYFW": {
       "app_name": "APIDemo",
@@ -67,8 +67,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 29,
-      "last_check": "2026-06-03"
+      "expiry_days": 28,
+      "last_check": "2026-06-04"
     },
     "5ZQh4aRA": {
       "app_name": "互动白板",
@@ -77,8 +77,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 29,
-      "last_check": "2026-06-03"
+      "expiry_days": 28,
+      "last_check": "2026-06-04"
     },
     "MGwX87rb": {
       "app_name": "VideoCallDemo",
@@ -87,8 +87,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 29,
-      "last_check": "2026-06-03"
+      "expiry_days": 28,
+      "last_check": "2026-06-04"
     },
     "2ECNyYgf": {
       "app_name": "云屋通",
@@ -107,8 +107,8 @@
         "ios"
       ],
       "last_modify": "2026-04-03",
-      "expiry_days": 29,
-      "last_check": "2026-06-03"
+      "expiry_days": 28,
+      "last_check": "2026-06-04"
     },
     "B4CR47hX": {
       "app_name": "CRIM Demo-Flutter",
@@ -117,8 +117,8 @@
         "ios"
       ],
       "last_modify": "2026-05-26",
-      "expiry_days": 82,
-      "last_check": "2026-06-03"
+      "expiry_days": 81,
+      "last_check": "2026-06-04"
     }
   }
 }
