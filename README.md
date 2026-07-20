@@ -24,9 +24,9 @@ Collect Public Testflight app URL's (iOS/iPad OS/macOS), feel free to create a i
 ## iOS App List
 
 <details open>
-<summary><strong>Available (12 apps)</strong> - Apps currently accepting new testers</summary>
+<summary><strong>Available (13 apps)</strong> - Apps currently accepting new testers</summary>
 
-_✅ These 12 apps are currently accepting new testers! Click the links to join._
+_✅ These 13 apps are currently accepting new testers! Click the links to join._
 
 | Name | TestFlight Link | Status | Last Updated |
 | --- | --- | --- | --- |
@@ -38,6 +38,7 @@ _✅ These 12 apps are currently accepting new testers! Click the links to join.
 | CRMeetingDemo-Flutter | [https://testflight.apple.com/join/8HpKgasF](https://testflight.apple.com/join/8HpKgasF) | Y | 2026-04-03 |
 | CRMeetingSDKDemo-Navtive | [https://testflight.apple.com/join/4SgxBpAq](https://testflight.apple.com/join/4SgxBpAq) | Y | 2026-04-03 |
 | MeetingDemo | [https://testflight.apple.com/join/yPQ18Hrx](https://testflight.apple.com/join/yPQ18Hrx) | Y | 2026-04-03 |
+| ReactNativeAPIDemo | [https://testflight.apple.com/join/EPY12AP7](https://testflight.apple.com/join/EPY12AP7) | Y | 2026-07-20 |
 | uni-app-APIDemo | [https://testflight.apple.com/join/kFq9OQTP](https://testflight.apple.com/join/kFq9OQTP) | Y | 2026-04-03 |
 | VideoCallDemo | [https://testflight.apple.com/join/MGwX87rb](https://testflight.apple.com/join/MGwX87rb) | Y | 2026-04-03 |
 | 云屋通 | [https://testflight.apple.com/join/2ECNyYgf](https://testflight.apple.com/join/2ECNyYgf) | Y | 2026-06-18 |
