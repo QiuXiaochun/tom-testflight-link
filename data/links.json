@@ -119,6 +119,16 @@
       "last_modify": "2026-05-26",
       "expiry_days": 36,
       "last_check": "2026-07-19"
+    },
+    "EPY12AP7": {
+      "app_name": "ReactNativeAPIDemo",
+      "status": "Y",
+      "tables": [
+        "ios"
+      ],
+      "last_modify": "2026-07-20",
+      "expiry_days": 88,
+      "last_check": "2026-07-19"
     }
   }
 }
