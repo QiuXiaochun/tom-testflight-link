@@ -9,24 +9,25 @@
 ## iOS App List
 
 <details open>
-<summary><strong>Available (12 apps)</strong> - Apps currently accepting new testers</summary>
+<summary><strong>Available (13 apps)</strong> - Apps currently accepting new testers</summary>
 
-_✅ These 12 apps are currently accepting new testers! Click the links to join._
+_✅ These 13 apps are currently accepting new testers! Click the links to join._
 
 | Name | TestFlight Link | Status | 剩余天数 | Last Updated |
 | --- | --- | --- | --- | --- |
-| APIDemo | [https://testflight.apple.com/join/otcFpYFW](https://testflight.apple.com/join/otcFpYFW) | Y | 69 | 2026-04-03 |
-| APIDemo-Flutter | [https://testflight.apple.com/join/dHUzkHun](https://testflight.apple.com/join/dHUzkHun) | Y | 69 | 2026-04-03 |
-| CRIM Demo | [https://testflight.apple.com/join/TeO9zlHV](https://testflight.apple.com/join/TeO9zlHV) | Y | 44 | 2026-06-03 |
-| CRIM Demo uni-app | [https://testflight.apple.com/join/pJoF5zsU](https://testflight.apple.com/join/pJoF5zsU) | Y | 29 | 2026-05-19 |
-| CRIM Demo-Flutter | [https://testflight.apple.com/join/B4CR47hX](https://testflight.apple.com/join/B4CR47hX) | Y | 36 | 2026-05-26 |
-| CRMeetingDemo-Flutter | [https://testflight.apple.com/join/8HpKgasF](https://testflight.apple.com/join/8HpKgasF) | Y | 69 | 2026-04-03 |
-| CRMeetingSDKDemo-Navtive | [https://testflight.apple.com/join/4SgxBpAq](https://testflight.apple.com/join/4SgxBpAq) | Y | 69 | 2026-04-03 |
-| MeetingDemo | [https://testflight.apple.com/join/yPQ18Hrx](https://testflight.apple.com/join/yPQ18Hrx) | Y | 69 | 2026-04-03 |
-| uni-app-APIDemo | [https://testflight.apple.com/join/kFq9OQTP](https://testflight.apple.com/join/kFq9OQTP) | Y | 69 | 2026-04-03 |
-| VideoCallDemo | [https://testflight.apple.com/join/MGwX87rb](https://testflight.apple.com/join/MGwX87rb) | Y | 69 | 2026-04-03 |
-| 云屋通 | [https://testflight.apple.com/join/2ECNyYgf](https://testflight.apple.com/join/2ECNyYgf) | Y | 59 | 2026-06-18 |
-| 互动白板 | [https://testflight.apple.com/join/5ZQh4aRA](https://testflight.apple.com/join/5ZQh4aRA) | Y | 52 | 2026-04-03 |
+| APIDemo | [https://testflight.apple.com/join/otcFpYFW](https://testflight.apple.com/join/otcFpYFW) | Y | 68 | 2026-04-03 |
+| APIDemo-Flutter | [https://testflight.apple.com/join/dHUzkHun](https://testflight.apple.com/join/dHUzkHun) | Y | 68 | 2026-04-03 |
+| CRIM Demo | [https://testflight.apple.com/join/TeO9zlHV](https://testflight.apple.com/join/TeO9zlHV) | Y | 43 | 2026-06-03 |
+| CRIM Demo uni-app | [https://testflight.apple.com/join/pJoF5zsU](https://testflight.apple.com/join/pJoF5zsU) | Y | 28 | 2026-05-19 |
+| CRIM Demo-Flutter | [https://testflight.apple.com/join/B4CR47hX](https://testflight.apple.com/join/B4CR47hX) | Y | 35 | 2026-05-26 |
+| CRMeetingDemo-Flutter | [https://testflight.apple.com/join/8HpKgasF](https://testflight.apple.com/join/8HpKgasF) | Y | 68 | 2026-04-03 |
+| CRMeetingSDKDemo-Navtive | [https://testflight.apple.com/join/4SgxBpAq](https://testflight.apple.com/join/4SgxBpAq) | Y | 68 | 2026-04-03 |
+| MeetingDemo | [https://testflight.apple.com/join/yPQ18Hrx](https://testflight.apple.com/join/yPQ18Hrx) | Y | 68 | 2026-04-03 |
+| ReactNativeAPIDemo | [https://testflight.apple.com/join/EPY12AP7](https://testflight.apple.com/join/EPY12AP7) | Y | 87 | 2026-07-20 |
+| uni-app-APIDemo | [https://testflight.apple.com/join/kFq9OQTP](https://testflight.apple.com/join/kFq9OQTP) | Y | 68 | 2026-04-03 |
+| VideoCallDemo | [https://testflight.apple.com/join/MGwX87rb](https://testflight.apple.com/join/MGwX87rb) | Y | 68 | 2026-04-03 |
+| 云屋通 | [https://testflight.apple.com/join/2ECNyYgf](https://testflight.apple.com/join/2ECNyYgf) | Y | 58 | 2026-06-18 |
+| 互动白板 | [https://testflight.apple.com/join/5ZQh4aRA](https://testflight.apple.com/join/5ZQh4aRA) | Y | 51 | 2026-04-03 |
 
 </details>
 
