@@ -127,7 +127,7 @@
         "ios"
       ],
       "last_modify": "2026-07-20",
-      "expiry_days": 0,
+      "expiry_days": 90,
       "last_check": "2026-10-17"
     }
   }
